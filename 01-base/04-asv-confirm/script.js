@@ -11,6 +11,9 @@
 
 (function() {
 
-    // your code here
+let age = prompt ("Quel est ton âge ?");
+let sexe = prompt ("Quel est ton sexe ?");
+let ville = prompt ("Quelle est ta ville ?");
 
+alert("Tu as " + age + " ans, tu es un(e) " + sexe + " et tu viens de " + ville + " .");
 })();
